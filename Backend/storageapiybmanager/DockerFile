@@ -1,0 +1,12 @@
+FROM alpine
+#RUN useradd -ms /bin/bash admin
+RUN addgroup -S admingroup && adduser -S admin -G admingroup
+RUN apk add gcompat
+COPY /target/storageapiybmanager /app/app
+WORKDIR /app
+RUN pwd
+RUN chown -R admin /app/app
+RUN chmod 755 ./app
+USER admin
+WORKDIR /app
+CMD ./app

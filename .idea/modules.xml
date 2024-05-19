@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/YBManager.iml" filepath="$PROJECT_DIR$/.idea/YBManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/storageapiybmanager/storageapiybmanager.iml" filepath="$PROJECT_DIR$/Backend/storageapiybmanager/storageapiybmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/userhandlerybmanager/userhandlerybmanager.iml" filepath="$PROJECT_DIR$/Backend/userhandlerybmanager/userhandlerybmanager.iml" />
+    </modules>
+  </component>
+</project>
